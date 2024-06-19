@@ -13,3 +13,4 @@ requests
 requests-unixsocket
 yarl==1.5.1 # see https://github.com/aio-libs/aiohttp/issues/4972
 aiohttp
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
